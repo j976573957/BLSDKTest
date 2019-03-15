@@ -18,9 +18,12 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/j976573957/BLSDKTest.git", :tag => "#{s.version}" }
 
-  s.resources = "BLSDKDemo/BLSDK/HelpDeskUIResource.bundle", "BLSDKDemo/BLSDK/HorderCatcherBoudle.bundle", "BLSDKDemo/BLSDK/MWPhotoBrowser.bundle"
+  #s.resources = "BLSDKDemo/BLSDK/HelpDeskUIResource.bundle" 
+  #s.resources = 'BLSDKDemo/BLSDK/HorderCatcherBoudle.bundle'
+  #s.resources = "BLSDKDemo/BLSDK/MWPhotoBrowser.bundle"
 
-  s.ios.preserve_paths = "BLSDKDemo/BLSDK/hdlibopencore-amrnb.a", "BLSDKDemo/BLSDK/hdlibopencore-amrwb.a"
+  #s.ios.preserve_paths = 'BLSDKDemo/BLSDK/hdlibopencore-amrnb.a', 'BLSDKDemo/BLSDK/hdlibopencore-amrwb.a'
+  #s.ios.vendored_libraries  = 'BLSDKDemo/BLSDK/hdlibopencore-amrnb.a', 'BLSDKDemo/BLSDK/hdlibopencore-amrwb.a'
 
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
