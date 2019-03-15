@@ -1,0 +1,7 @@
+SF:ww_icon_shunfeng.png,
+STO:ww_icon_shentong.png,
+YZPY:ww_icon_youzheng.png,
+YZBK:ww_icon_youzheng.png,
+YTO:ww_icon_yuantong.png,
+YD:ww_icon_yunda.png,
+ZTO:ww_icon_zhongtong.png
