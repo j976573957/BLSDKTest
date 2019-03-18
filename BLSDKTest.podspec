@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "BLSDKTest"
-  s.version      = "1.0.3"
+  s.version      = "1.0.5"
   s.summary      = "A short description of BLSDKTest."
   
   s.homepage     = "https://github.com/j976573957/BLSDKTest"
@@ -18,9 +18,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/j976573957/BLSDKTest.git", :tag => "#{s.version}" }
 
-  s.resources = "BLSDK/HelpDeskUIResource.bundle/*" 
-  s.resources = 'BLSDK/HorderCatcherBoudle.bundle/*'
-  s.resources = "BLSDK/MWPhotoBrowser.bundle"
+  s.resources = "BLSDK/HelpDeskUIResource.bundle" , "BLSDK/MWPhotoBrowser.bundle", 'BLSDK/HorderCatcherBoudle.bundle'
 
   s.ios.preserve_paths = 'BLSDK/hdlibopencore-amrnb.a', 'BLSDK/hdlibopencore-amrwb.a', 'BLSDK/HorderCatcherFramework.framework/*'
   #s.ios.vendored_libraries  = 'BLSDKDemo/BLSDK/hdlibopencore-amrnb.a', 'BLSDKDemo/BLSDK/hdlibopencore-amrwb.a'
