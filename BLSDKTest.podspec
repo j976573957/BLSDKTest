@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "BLSDKTest"
-  s.version      = "1.0.6"
+  s.version      = "1.0.8"
   s.summary      = "A short description of BLSDKTest."
   
   s.homepage     = "https://github.com/j976573957/BLSDKTest"
@@ -20,10 +20,11 @@ Pod::Spec.new do |s|
 
   s.resources = "BLSDK/HelpDeskUIResource.bundle" , "BLSDK/MWPhotoBrowser.bundle", 'BLSDK/HorderCatcherBoudle.bundle'
 
-  s.ios.preserve_paths = 'BLSDK/hdlibopencore-amrnb.a', 'BLSDK/hdlibopencore-amrwb.a', 'BLSDK/HorderCatcherFramework.framework/*'
+  s.ios.preserve_paths = 'BLSDK/hdlibopencore-amrnb.a', 'BLSDK/hdlibopencore-amrwb.a', 'BLSDK/HorderCatcherFramework.framework/*', 'BLSDK/HelpDeskLite.framework/*', 'BLSDK/HyphenateLite.framework/*'
   #s.ios.vendored_libraries  = 'BLSDKDemo/BLSDK/hdlibopencore-amrnb.a', 'BLSDKDemo/BLSDK/hdlibopencore-amrwb.a'
 
-  s.frameworks = "BLSDK/HorderCatcherFramework.framework", "AudioToolbox", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreVideo", "MobileCoreServices", "OpenGLES", "QuartzCore", "VideoToolbox", "Foundation", "UIKit", "MediaPlayer", "IJKMediaFrameworkWith.framework"
+  s.vendored_frameworks = 'BLSDK/HorderCatcherFramework.framework'
+  s.frameworks = "AudioToolbox", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreVideo", "MobileCoreServices", "OpenGLES", "QuartzCore", "VideoToolbox", "Foundation", "UIKit", "MediaPlayer", "HorderCatcherFramework"
 
   s.libraries = "iconv", "xml2", "bz2", "z", "stdc++", "c++"
 

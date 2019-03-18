@@ -1,6 +1,0 @@
-framework module HorderCatcherFramework {
-  umbrella header "HorderCatcherFramework.h"
-
-  export *
-  module * { export * }
-}
