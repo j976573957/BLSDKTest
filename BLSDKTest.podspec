@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "BLSDKTest"
-  s.version      = "1.0.8"
+  s.version      = "1.0.9"
   s.summary      = "A short description of BLSDKTest."
   
   s.homepage     = "https://github.com/j976573957/BLSDKTest"
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'BLSDK/HorderCatcherFramework.framework'
   s.frameworks = "AudioToolbox", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreVideo", "MobileCoreServices", "OpenGLES", "QuartzCore", "VideoToolbox", "Foundation", "UIKit", "MediaPlayer", "HorderCatcherFramework"
 
-  s.libraries = "iconv", "xml2", "bz2", "z", "stdc++", "c++"
+  s.libraries = "iconv", "xml2", "bz2", "z", "stdc++", "c++", "resolv"
 
   s.requires_arc = true
 
