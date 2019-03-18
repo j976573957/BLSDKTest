@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "BLSDKTest"
-  s.version      = "1.0.0"
+  s.version      = "1.0.2"
   s.summary      = "A short description of BLSDKTest."
   
   s.homepage     = "https://github.com/j976573957/BLSDKTest"
@@ -18,11 +18,11 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/j976573957/BLSDKTest.git", :tag => "#{s.version}" }
 
-  #s.resources = "BLSDKDemo/BLSDK/HelpDeskUIResource.bundle" 
-  #s.resources = 'BLSDKDemo/BLSDK/HorderCatcherBoudle.bundle'
-  #s.resources = "BLSDKDemo/BLSDK/MWPhotoBrowser.bundle"
+  s.resources = "BLSDKDemo/BLSDK/HelpDeskUIResource.bundle" 
+  s.resources = 'BLSDKDemo/BLSDK/HorderCatcherBoudle.bundle'
+  s.resources = "BLSDKDemo/BLSDK/MWPhotoBrowser.bundle"
 
-  #s.ios.preserve_paths = 'BLSDKDemo/BLSDK/hdlibopencore-amrnb.a', 'BLSDKDemo/BLSDK/hdlibopencore-amrwb.a'
+  s.ios.preserve_paths = 'BLSDKDemo/BLSDK/hdlibopencore-amrnb.a', 'BLSDKDemo/BLSDK/hdlibopencore-amrwb.a'
   #s.ios.vendored_libraries  = 'BLSDKDemo/BLSDK/hdlibopencore-amrnb.a', 'BLSDKDemo/BLSDK/hdlibopencore-amrwb.a'
 
   # s.frameworks = "SomeFramework", "AnotherFramework"
@@ -48,5 +48,6 @@ Pod::Spec.new do |s|
   s.dependency "FDFullscreenPopGesture"
   s.dependency "MJExtension"
   s.dependency "TXScrollLabelView"
+  s.dependency "ijkplayer"
 
 end
