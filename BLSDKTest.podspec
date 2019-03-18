@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "BLSDKTest"
-  s.version      = "1.0.5"
+  s.version      = "1.0.6"
   s.summary      = "A short description of BLSDKTest."
   
   s.homepage     = "https://github.com/j976573957/BLSDKTest"
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.ios.preserve_paths = 'BLSDK/hdlibopencore-amrnb.a', 'BLSDK/hdlibopencore-amrwb.a', 'BLSDK/HorderCatcherFramework.framework/*'
   #s.ios.vendored_libraries  = 'BLSDKDemo/BLSDK/hdlibopencore-amrnb.a', 'BLSDKDemo/BLSDK/hdlibopencore-amrwb.a'
 
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  s.frameworks = "BLSDK/HorderCatcherFramework.framework", "AudioToolbox", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreVideo", "MobileCoreServices", "OpenGLES", "QuartzCore", "VideoToolbox", "Foundation", "UIKit", "MediaPlayer", "IJKMediaFrameworkWith.framework"
 
   s.libraries = "iconv", "xml2", "bz2", "z", "stdc++", "c++"
 
