@@ -8,7 +8,12 @@ iOS娃娃部落SDK集成文档
 
 1.2、	终端执行pod update --no-repo-update 命令
 
-1.3、	在BLSDK 文件夹下把这两个动态库拖进工程
+1.3、	在BLSDK 文件夹下把这两个动态库拖进工程,并加到 Enable Binaries
+HelpDeskLite.framework
+HyphenateLite.framework
+
+这是集成Demo
+https://github.com/j976573957/BLSDKTestDemo
 
 1．4、在info.plist 里面添加支持 http 请求参数
 
